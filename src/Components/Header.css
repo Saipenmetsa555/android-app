@@ -1,0 +1,18 @@
+.logout-btn {
+  width: 100px;
+  height: 35px;
+}
+
+@media screen and (min-width: 576px) {
+  .logout-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logout-btn {
+    display: none;
+  }
+  .logout-icon {
+  }
+}
